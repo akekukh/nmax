@@ -1,6 +1,5 @@
-require "nmax/version"
+require 'nmax/version'
+require 'nmax/numbers_parser'
+require 'nmax/finder'
 
-module Nmax
-  class Error < StandardError; end
-  # Your code goes here...
-end
+module Nmax; end
